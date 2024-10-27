@@ -1,23 +1,29 @@
 {
-    "name": "Tpbot-1a",
-    "description": "",
+    "name": "pxt-TPBot",
+    "version": "2.0.1",
+    "description": "The intelligent programming car TPBot(Tianpeng) produced by ELECFREAKS Co.ltd",
     "dependencies": {
-        "core": "*",
-        "radio": "*",
-        "microphone": "*"        
+        "core": "*"
     },
     "files": [
-        "main.blocks",
-        "main.ts",
         "README.md",
+        "main.ts",
         "V1.ts",
-        "V2.ts"
+        "V2.ts",
+        "_locales/zh/pxt-TPBot-strings.json",
+        "_locales/de/pxt-TPBot-strings.json",
+        "_locales/de/pxt-TPBot-jsdoc-strings.json",
+        "_locales/ja/pxt-TPBot-strings.json",
+        "_locales/ja/pxt-TPBot-jsdoc-strings.json",
+        "_locales/gr/pxt-TPBot-strings.json",
+        "_locales/ja/pxt-TPBot-jsdoc-strings.json"
     ],
     "testFiles": [
         "test.ts"
     ],
+    "public": true,
     "targetVersions": {
-        "target": "7.0.51",
+        "target": "4.0.18",
         "targetId": "microbit"
     },
     "supportedTargets": [
