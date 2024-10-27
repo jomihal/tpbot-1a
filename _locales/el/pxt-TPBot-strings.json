@@ -37,7 +37,7 @@
   "TPBot.stopCar|block": "Σταμάτησε το TPbot αμέσως",
   "TPBot.trackEvent|block": "Όταν ο αισθητήρας γραμμής %side| ανιχνεύσει %state",
   "TPBot.trackLine|block": "Η κατάσταση του αισθητήρα γραμμής είναι %state",
-  "TPBot.trackSide|block": "Ο αισθητήρας γραμμής %side ανίχνευσε %state",
+  "TPBot.trackSide|block": "Ο αισθητήρας γραμμής %side ανιχνεύει %state",
   "TPBot|block": "TPBot",
   "{id:category}TPBot": "TPBot",
   "{id:subcategory}PID": "PID"
