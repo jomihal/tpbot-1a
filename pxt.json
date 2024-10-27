@@ -15,8 +15,8 @@
         "_locales/de/pxt-TPBot-jsdoc-strings.json",
         "_locales/ja/pxt-TPBot-strings.json",
         "_locales/ja/pxt-TPBot-jsdoc-strings.json",
-        "_locales/gr/pxt-TPBot-strings.json",
-        "_locales/gr/pxt-TPBot-jsdoc-strings.json"
+        "_locales/el/pxt-TPBot-strings.json",
+        "_locales/el/pxt-TPBot-jsdoc-strings.json"
     ],
     "testFiles": [
         "test.ts"
