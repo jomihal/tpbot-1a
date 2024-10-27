@@ -35,7 +35,7 @@
   "TPBot.sonarJudge|block": "Απόσταση sonar %judge %dis cm",
   "TPBot.sonarReturn|block": "Μονάδα απόστασης Sonar %unit",
   "TPBot.stopCar|block": "Σταμάτησε το TPbot αμέσως",
-  "TPBot.trackEvent|block": "Αν ο αισθητήρας γραμμής %side| ανίχνευσε %state",
+  "TPBot.trackEvent|block": "Όταν ο αισθητήρας γραμμής %side| ανίχνευσε %state",
   "TPBot.trackLine|block": "Η κατάσταση του αισθητήρα γραμμής είναι %state",
   "TPBot.trackSide|block": "Ο αισθητήρας γραμμής %side ανίχνευσε %state",
   "TPBot|block": "TPBot",
