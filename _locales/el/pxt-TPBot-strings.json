@@ -38,6 +38,7 @@
   "TPBot.trackEvent|block": "Όταν ο αισθητήρας γραμμής %side| ανιχνεύει %state",
   "TPBot.trackLine|block": "Η κατάσταση του αισθητήρα γραμμής είναι %state",
   "TPBot.trackSide|block": "Ο αισθητήρας γραμμής %side ανιχνεύει %state",
+  "TPBot.PID.pidSpeedControl|block": "Ρύθμισε την ταχύτητα Αριστερού τροχού %lspeed\\% , του δεξιού τροχού σε %rspeed\\% %unit\\%",
   "TPBot|block": "TPBot",
   "{id:category}TPBot": "TPBot",
   "{id:subcategory}PID": "PID"
