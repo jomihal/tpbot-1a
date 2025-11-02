@@ -42,3 +42,14 @@
   "{id:category}TPBot": "TPBot",
   "{id:subcategory}PID": "PID"
 }
+
+{
+ "PID.pidSpeedControl|block": "Ρύθμισε την ταχύτητα Αριστερού τροχού σε %lspeed\\%| και του δεξιού τροχού σε%rspeed\\% %unit\\%",
+ "PID|block": "PID",
+  "{id:category}PID": "PID",
+  
+}
+
+Use Control + Shift + m to toggle the tab key mo
+
+
