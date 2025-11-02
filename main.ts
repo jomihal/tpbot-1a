@@ -339,9 +339,9 @@ export enum VersionList {
     }
     export enum Direction {
         //%block="Forward"
-        Μπροστά,
+        Forward,
         //%block="Backward"
-        Πίσω
+        Backward
     }
     export enum DistanceUnit {
         //%block="cm"
@@ -365,13 +365,13 @@ export enum VersionList {
     }
     export enum TurnUnit {
         //%block="Leftsteering"
-        ΑριστερήΣτροφή = 0,
+        Leftsteering = 0,
         //%block="Rightsteering"
-        ΔεξιάΣτροφή = 1,
+        Rightsteering = 1,
         //%block="Stay_Leftsteering"
-        Μείνε_σε_στροφή_Αριστερά = 2,
+        Stay_Leftsteering = 2,
         //%block="Stay_Rightsteering"
-        Μείνε_σε_στροφή_Δεξίά = 3
+        Stay_Rightsteering = 3
     }
     export enum TurnAngleUnit {
         //% block="45°"
