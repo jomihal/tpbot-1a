@@ -392,7 +392,8 @@ export enum VersionList {
      * @param unit set the SpeedUnit
      */
     //% subcategory="PID"
-    //% block="set left wheel speed %lspeed, right wheel speed %rspeed %unit"
+    //% block="ρύθμισε την ταχύτητα αριστερού τροχού σε %lspeed, δεξιού τροχού σε %rspeed %unit"
+    // block="set left wheel speed %lspeed, right wheel speed %rspeed %unit"
     //% weight=210
     export function pidSpeedControl(lspeed: number, rspeed: number, unit: SpeedUnit): void {
         TPBotV2.pidSpeedControl(lspeed, rspeed, unit);
