@@ -407,7 +407,8 @@ export enum VersionList {
      */
     //% subcategory="PID"
     //% weight=200
-    //% block="go %Direction %distance %DistanceUnit"
+    //% block="προχώρα %Direction %distance %DistanceUnit"
+    // block="go %Direction %distance %DistanceUnit"
     export function pidRunDistance(direction: Direction, distance: number, unit: DistanceUnit): void {
         TPBotV2.pidRunDistance(direction, distance, unit);
     }
@@ -419,7 +420,8 @@ export enum VersionList {
     */
     //% subcategory="PID"
     //% weight=180
-    //% block="set length of the squares as %length %DistanceUnit"
+    //% block="θέσε μήκος των τετραγώνων σε %length %DistanceUnit"
+    // block="set length of the squares as %length %DistanceUnit"
     export function pidBlockSet(length: number, distanceUnit: DistanceUnit): void {
         TPBotV2.pidBlockSet(length, distanceUnit);
     }
@@ -430,7 +432,8 @@ export enum VersionList {
     */
     //% subcategory="PID"
     //% weight=170
-    //% block="go forward %cnt squares"
+    // block="go forward %cnt squares"
+    //% block="προχώρα μπροστά %cnt τετράγωνα"
     export function pidRunBlock(cnt: number): void {
         TPBotV2.pidRunBlock(cnt);
     }
@@ -442,7 +445,8 @@ export enum VersionList {
      */
     //% subcategory="PID"
     //% weight=190
-    //% block="set car %TurnUnit for angle %angle"
+    //% block="στρίψε %TurnUnit για γωνία %angle"
+    // block="set car %TurnUnit for angle %angle"
     //% angle.min=0 angle.max=360
     export function pidRunSteering(turn: TurnUnit, angle: number): void {
         TPBotV2.pidRunSteering(turn, angle);
